@@ -93,6 +93,7 @@ alert("Su numero al azar es: " + maximo(parseInt(ls),parseInt(li)));
 */
 
 /*while loop*/
+/*
 function maximo(ls, li)
 {
 	if(isNaN(ls) || isNaN(li))
@@ -113,12 +114,24 @@ while (contador<10)
 		document.write(randomico+ " ");
 		contador++;
 	}
+*/
+
+function maximo()
+{
+var contador=0;
+while(true)
+{   var num = Math.floor(Math.random()* 100)+1;
+	if(num===aleatorio){
+		break;
+	} 
+
+contador++;
+
+}
+document.write(contador+ " veces se ha buscado el numero:" + aleatorio);
+}
 
 
-
-
-
-
-
-
-
+var aleatorio = Math.floor(Math.random()* 100)+1;
+alert("Su numero al azar es: " + parseInt(aleatorio));
+maximo();
