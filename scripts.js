@@ -18,7 +18,15 @@ alert ('Wow! Has visto ' + tiempoPantalla+" veces minimo la pantalla");
 console.log("fin del programa");
 */
 
+/*
 console.log("inicio del programa");
 var dado = Math.floor(Math.random() * 6) + 1;
 alert ("Dado dice: " + dado);
+console.log("fin del programa");
+*/
+
+console.log("inicio del programa");
+var numero = prompt("Ingresa un numero:");
+var aleatorio = Math.floor(Math.random()* numero)+1;
+alert('Numero entre 1 y' + numero+ " es: " +aleatorio);
 console.log("fin del programa");
