@@ -25,8 +25,29 @@ alert ("Dado dice: " + dado);
 console.log("fin del programa");
 */
 
+/*
 console.log("inicio del programa");
 var numero = prompt("Ingresa un numero:");
 var aleatorio = Math.floor(Math.random()* numero)+1;
 alert('Numero entre 1 y' + numero+ " es: " +aleatorio);
 console.log("fin del programa");
+*/
+
+
+console.log("inicio del programa");
+var numero = prompt("Ingresa un numero del 1 al 10: ");
+
+var aleatorio = Math.floor(Math.random()* 10)+1;
+
+
+if (parseInt(numero)===parseInt(aleatorio))
+ { 
+ 	alert("Adivinastes el numero");
+	}
+  else
+  	{
+  		alert("Incorrecto!. El numero es: "+ parseInt(aleatorio) );
+  		}
+
+console.log("fin del programa");
+
