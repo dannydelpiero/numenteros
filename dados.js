@@ -121,11 +121,10 @@ function maximo()
 var contador=0;
 while(true)
 {   var num = Math.floor(Math.random()* 100)+1;
+	contador++;
 	if(num===aleatorio){
 		break;
 	} 
-
-contador++;
 
 }
 document.write(contador+ " veces se ha buscado el numero:" + aleatorio);
