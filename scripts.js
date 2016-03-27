@@ -19,6 +19,6 @@ console.log("fin del programa");
 */
 
 console.log("inicio del programa");
-var dado=Math.floor(Math.ramdom()*6)+1;
+var dado = Math.floor(Math.random() * 6) + 1;
 alert ("Dado dice: " + dado);
 console.log("fin del programa");
